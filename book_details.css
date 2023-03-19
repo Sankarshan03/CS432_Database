@@ -1,0 +1,18 @@
+/* Style the book details */
+
+.book-details {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.book-details p {
+    font-size: 14px;
+    margin: 0;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.book-details p:last-child {
+    margin-right: 0;
+}
