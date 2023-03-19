@@ -1,0 +1,60 @@
+/* Apply basic styles to the page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style the page header */
+
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+
+/* Style the book list */
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+/* Style the book details */
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+
+/*Responsive styles*/
+
+@media screen and (max-width:700px) {
+    li {
+        width: calc(50%-1rem)
+    }
+}
+
+@media screen and (max-width:450px) {
+    li {
+        width: 100%
+    }
+}
